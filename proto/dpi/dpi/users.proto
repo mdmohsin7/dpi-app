@@ -1,0 +1,13 @@
+syntax = "proto3";
+package dpi.dpi;
+
+option go_package = "dpi/x/dpi/types";
+
+message Users {
+  uint64 id = 1;
+  string vpa = 2; 
+  string ethAddr = 3; 
+  string btcAddr = 4; 
+  string atomAddr = 5; 
+  
+}
